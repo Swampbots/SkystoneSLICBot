@@ -24,8 +24,8 @@ public class SLICBotHardware {
 
     public Servo clamp;
 
-    public Servo foundLeft;
-    public Servo foundRight;
+    //public Servo foundLeft;
+    //public Servo foundRight;
 
     // Deploy servo positions (index 0 is the left servo, index 1 is the right)
     public final double[] STOWED =      {0.0, 0.0};
@@ -82,8 +82,8 @@ public class SLICBotHardware {
 
         clamp       = hardwareMap.servo.get("clamp");
 
-        foundLeft   = hardwareMap.servo.get("found_left");
-        foundRight  = hardwareMap.servo.get("found_right");
+        //foundLeft   = hardwareMap.servo.get("found_left");
+        //foundRight  = hardwareMap.servo.get("found_right");
 
 
 
@@ -116,8 +116,8 @@ public class SLICBotHardware {
 
         clamp.setPosition(1.0);
 
-        foundLeft.setPosition(0.0);
-        foundRight.setPosition(1.0);
+        //foundLeft.setPosition(0.0);
+        //foundRight.setPosition(1.0);
     }
 
 

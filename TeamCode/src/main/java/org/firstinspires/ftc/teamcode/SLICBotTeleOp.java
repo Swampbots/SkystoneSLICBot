@@ -183,11 +183,11 @@ public class SLICBotTeleOp extends OpMode {
             gp2_a.updateSnapshot(runtime);
         }
 
-        if (gamepad2.x && gp2_x.ready(runtime)) {
+        /*if (gamepad2.x && gp2_x.ready(runtime)) {
             hardware.foundLeft.setPosition((Math.abs(hardware.foundLeft.getPosition() - 1)));
             hardware.foundRight.setPosition((Math.abs(hardware.foundRight.getPosition() - 1)));
             gp2_x.updateSnapshot(runtime);
-        }
+        }*/
 
 //        if(gamepad1.a || gamepad2.a) {
 //            setIntakePower(1.0);
